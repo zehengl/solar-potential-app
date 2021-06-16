@@ -78,8 +78,9 @@ const HomePage = () => {
 
       const showPopup = (address, pt) => {
         let title, content
+        const baseUrl = 'https://solar-potential-app.netlify.app'
         if (address) {
-          content = `<a class="bg-white text-blue-500 font-semibold" target='_blank' href='http://localhost:8910/location/${address}'>See detail.</a>`
+          content = `<a class="bg-white text-blue-500 font-semibold" target='_blank' href='${baseUrl}/location/${address}'>See detail.</a>`
           title = address
         } else {
           content = null
