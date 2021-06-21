@@ -13,9 +13,9 @@
     ]
   },
   "dependencies": {
-    "@redwoodjs/forms": "^0.33.3",
-    "@redwoodjs/router": "^0.33.3",
-    "@redwoodjs/web": "^0.33.3",
+    "@redwoodjs/forms": "^0.34.1",
+    "@redwoodjs/router": "^0.34.1",
+    "@redwoodjs/web": "^0.34.1",
     "esri-loader": "^3.1.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "autoprefixer": "9.8.6",
-    "postcss-loader": "4.0.2",
+    "postcss-loader": "4.3.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }
