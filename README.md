@@ -2,6 +2,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1a1b8229-21a4-4e8a-bbd2-6b3fe5fe727f/deploy-status)](https://app.netlify.com/sites/solar-potential-app/deploys)
 
+A Jamstack app to visualize solar potential
+
 ## Getting Started
 
 ### Setup
