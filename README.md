@@ -21,3 +21,10 @@ yarn redwood dev
 ```
 
 Your browser should open automatically to `http://localhost:8910` to see the web app. Lambda functions run on `http://localhost:8911` and are also proxied to `http://localhost:8910/.redwood/functions/*`.
+
+## Credits
+
+- [Logo][1] by [ibrandify][2]
+
+[1]: https://www.iconfinder.com/icons/2992444/energy_panel_solar_icon
+[2]: https://www.iconfinder.com/ibrandify
