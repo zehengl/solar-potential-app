@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@redwoodjs/api": "^0.36.2",
-    "@redwoodjs/api-server": "^0.36.2",
+    "@redwoodjs/api": "^0.36.4",
+    "@redwoodjs/api-server": "^0.36.4",
     "node-fetch": "^2.6.1"
   }
 }
