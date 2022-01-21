@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
-import { loadModules } from 'esri-loader'
+
 import AppLayout from 'src/layouts/AppLayout'
+import { loadModules } from 'esri-loader'
 
 const HomePage = () => {
   const mapRef = useRef()
@@ -24,7 +25,7 @@ const HomePage = () => {
         url: 'https://tiles.arcgis.com/tiles/AVP60cs0Q9PEA8rH/arcgis/rest/services/Calgary_Basemap/MapServer',
       })
       const solar = new TileLayer({
-        url: 'https://tiles.arcgis.com/tiles/AVP60cs0Q9PEA8rH/arcgis/rest/services/Solar_Potential/MapServer',
+        url: 'https://tiles.arcgis.com/tiles/AVP60cs0Q9PEA8rH/arcgis/rest/services/SolarPotential/MapServer',
       })
       map.layers.add(basemap)
       map.add(solar)
