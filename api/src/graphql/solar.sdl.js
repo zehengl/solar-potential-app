@@ -4,6 +4,7 @@ export const schema = gql`
     number_of_panels: String!
     ac_annually: String!
     area: String!
+    capacity_factor: String!
   }
 
   type Query {

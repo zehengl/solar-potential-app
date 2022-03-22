@@ -5,6 +5,7 @@ export const QUERY = gql`
       number_of_panels
       ac_annually
       area
+      capacity_factor
     }
   }
 `
@@ -103,8 +104,9 @@ export const Success = ({ solar }) => {
                 </p>
               </dt>
               <dd className="mt-2 ml-16 text-base text-gray-500">
-                The kilowatt-hours AC power generated from those solar panel per
-                year is {solar.ac_annually} kwh.
+                The kilowatt-hours AC power generated from those solar panels
+                per year is {solar.ac_annually} kwh, with a capacity factor of{' '}
+                {solar.capacity_factor}.
               </dd>
             </div>
           </dl>
